@@ -43,7 +43,7 @@ let coreAssets = [
 	'image/enveloppe.svg',
 	'image/logo1.svg',
 	'image/icon5.svg',
-	'image/icon7.svg',
+	'image/icon7.svg'
 	
 ];
 // On install, cache core assets
