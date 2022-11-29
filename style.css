@@ -367,7 +367,7 @@ h2,.descript
 {
     display: flex;
     flex-wrap:wrap;
-    width: 731px;
+    width: 900px;
     justify-content: space-evenly;
 }
 #minibox3 p
@@ -392,6 +392,10 @@ h2,.descript
     text-transform: capitalize;
     color: #FFFFFF;
     text-align: left;
+}
+img.mob
+{
+    visibility: hidden;
 }
 .line3
 {
@@ -1186,18 +1190,17 @@ input
     /* Troisième partie */
     #minibox4 img
     {
-        width: 270px;
-        height: 300px;
         display: flex;
-       margin-left: -40px;
+        margin-left: -40px;
         justify-content: space-evenly;
     }
     #minibox4
     {
         display: flex;
         flex-wrap: wrap;
-        width: 350px;
-        margin-left: 10px;
+        width: 300px;
+        margin-left: 40px;
+        margin-top: 0;
     }
     #Bigbox3
     {
@@ -1212,6 +1215,17 @@ input
     #minbox4
     {
         width: 150px;
+    }
+    img.desk
+    {
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+    img.mob
+    {
+        visibility: initial;
+        justify-content: space-evenly;
     }
     /* quatrième partie */
     #Bigbox4
