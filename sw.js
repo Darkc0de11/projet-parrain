@@ -1,7 +1,6 @@
 // Core assets
-let coreAssets = [];
 var cacheName = 'projet-parrain'
-var appShellFiles = [
+let coreAssets = [
 	'/projet-parrain/',
 	'/projet-parrain/image/Rectangle%201.svg',
 	'/projet-parrain/style.css',
