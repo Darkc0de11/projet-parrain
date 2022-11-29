@@ -113,24 +113,24 @@ self.addEventListener('fetch', function (event) {
 
 	// Images
 	// Offline-first
-	if (request.headers.get('Accept').includes('image')) {
-		event.respondWith(
-			caches.match(request).then(function (response) {
-				return response || fetch(request).then(function (response) {
+	// if (request.headers.get('Accept').includes('image')) {
+	// 	event.respondWith(
+	// 		caches.match(request).then(function (response) {
+	// 			return response || fetch(request).then(function (response) {
 
-					// Save a copy of it in cache
-					let copy = response.clone();
-					event.waitUntil(caches.open('app').then(function (cache) {
-						return cache.put(request, copy);
-					}));
+	// 				// Save a copy of it in cache
+	// 				let copy = response.clone();
+	// 				event.waitUntil(caches.open('app').then(function (cache) {
+	// 					return cache.put(request, copy);
+	// 				}));
 
-					// Return the response
-					return response;
+	// 				// Return the response
+	// 				return response;
 
-				});
-			})
-		);
-	}
+	// 			});
+	// 		})
+	// 	);
+	// }
 
 });
 
