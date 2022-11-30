@@ -317,7 +317,28 @@ h2,.descript
     margin-left:auto;
     margin-right: auto;
 }
-
+#sprite1,#sprite2,#sprite3,#sprite4{
+ height: 52px;
+width: 52px;
+}
+#sprite1{
+    background-image: url(/image/spritecolor.png);
+    background-position: 0px 0px;
+   
+}
+#sprite2{
+    background-image: url(/image/spritecolor.png);
+    background-position: 52px 0px;
+ 
+}
+#sprite3{
+    background-image: url(/image/spritecolor.png);
+    background-position: 0px -52px;
+}
+#sprite4{
+    background-image: url(/image/spritecolor.png);
+    background-position: 52px -52px;
+}
 #icon1 p:nth-child(2),#icon2 p:nth-child(2),#icon3 p:nth-child(2),#icon4 p:nth-child(2)
 {
     font-family: 'Inter-Regular';
@@ -1152,6 +1173,10 @@ input
         text-align: left;
         padding-left: 20px;
     }
+    p.descript
+    {
+        margin-bottom: 30px;
+    }
     .icon
     {
         margin-left: 20px;
@@ -1168,6 +1193,11 @@ input
     #icon1 p:nth-child(3),#icon2 p:nth-child(3),#icon3 p:nth-child(3),#icon4 p:nth-child(3)
     {
         width: 301px;
+        margin-bottom: 30px;
+    }
+    #icon1 p:nth-child(2),#icon2 p:nth-child(2),#icon3 p:nth-child(2),#icon4 p:nth-child(2)
+    {
+        margin-top: 30px;
     }
     .line2
     {
