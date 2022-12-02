@@ -417,6 +417,8 @@ width: 52px;
 img.mob
 {
     visibility: hidden;
+    width: 0px;
+    height: 0px;
 }
 .line3
 {
