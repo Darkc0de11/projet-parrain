@@ -317,6 +317,10 @@ h2,.descript
     margin-left:auto;
     margin-right: auto;
 }
+.comp
+{
+    margin-bottom: 200px;
+}
 #sprite1,#sprite2,#sprite3,#sprite4{
  height: 52px;
 width: 52px;
@@ -416,9 +420,15 @@ width: 52px;
 }
 img.mob
 {
-    visibility: hidden;
+    visibility:hidden;
     width: 0px;
     height: 0px;
+  
+}
+ img.desk
+{
+    visibility: initial;
+
 }
 .line3
 {
@@ -1253,11 +1263,6 @@ input
         visibility: hidden;
         width: 0px;
         height: 0px;
-    }
-    img.mob
-    {
-        visibility: initial;
-        justify-content: space-evenly;
     }
     /* quatrième partie */
     #Bigbox4
